@@ -15,6 +15,14 @@ int main(int argc, const char * argv[]) {
     int arr[8] = {1, 4, 6, 3, 66, 34, 21, 32};
     bubbleSort(arr, 8);
     
+    //打印排序结果
+    int i;
+    printf("========Result=========\n");
+    for (i = 0; i < 8; i++) {
+        printf("%d,", arr[i]);
+    }
+    printf("\n========End=========\n");
+
     return 0;
 }
 
@@ -32,11 +40,4 @@ void bubbleSort(int arr[], int n)
             }
         }
     }
-    
-    //打印排序结果
-    printf("========Result=========\n");
-    for (i = 0; i < n; i++) {
-        printf("%d,", arr[i]);
-    }
-    printf("\n========End=========\n");
 }
