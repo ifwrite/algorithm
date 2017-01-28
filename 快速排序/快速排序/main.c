@@ -8,13 +8,13 @@
 
 #include <stdio.h>
 
-void quickSort(int arr[], int num);
+void quick_sort(int arr[], int num);
 
 int main(int argc, const char * argv[]) {
     // insert code here...
 
     int arr[7] = {5, 8, 7, 1, 6, 3, 10};
-    quickSort(arr, 7);
+    quick_sort(arr, 7);
     
     //打印排序结果
     int i;
@@ -27,7 +27,7 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 
-void quickSort(int arr[], int num)
+void quick_sort(int arr[], int num)
 {
     int l = 0;  //左边位置
     int r = num - 1;    //右边位置
@@ -51,7 +51,7 @@ void quickSort(int arr[], int num)
             }
             arr[l] = key;
         }
-        quickSort(arr, l);
-        quickSort(arr + l + 1, num - l - 1);
+        quick_sort(arr, l);
+        quick_sort(arr + l + 1, num - l - 1);
     }
 }

@@ -8,12 +8,12 @@
 
 #include <stdio.h>
 
-void bubbleSort(int arr[], int n);
+void bubble_sort(int arr[], int n);
 
 int main(int argc, const char * argv[]) {
 
     int arr[8] = {1, 4, 6, 3, 66, 34, 21, 32};
-    bubbleSort(arr, 8);
+    bubble_sort(arr, 8);
     
     //打印排序结果
     int i;
@@ -26,7 +26,7 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 
-void bubbleSort(int arr[], int n)
+void bubble_sort(int arr[], int n)
 {
     int i, j;
     
