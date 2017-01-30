@@ -17,6 +17,8 @@
  顺序查找的缺点：
  
  　　查找效率低，因此，当n较大时不宜采用顺序查找。
+ 
+ 时间复杂度为O(n)
  */
 #include <stdio.h>
 
@@ -30,6 +32,7 @@ int main(int argc, const char * argv[]) {
     int input, result_index;
 
     while (1) {
+        printf("\n请输人所要查找的元素：");
         scanf("%d", &input);
         result_index = order_search(arr, 8, input);
         
