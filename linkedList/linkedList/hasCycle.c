@@ -4,8 +4,8 @@
 //
 //  Created by 苏亮 on 2018/10/30.
 //  Copyright © 2018 swifterfit. All rights reserved.
-// 141. Linked List Cycle
-//https://leetcode.com/problems/linked-list-cycle/discuss/44489/O(1)-Space-Solution
+//  141. Linked List Cycle
+//  https://leetcode.com/problems/linked-list-cycle/
 
 #include <stdio.h>
 
