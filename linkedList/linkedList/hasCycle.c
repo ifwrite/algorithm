@@ -7,7 +7,7 @@
 // 141. Linked List Cycle
 //https://leetcode.com/problems/linked-list-cycle/discuss/44489/O(1)-Space-Solution
 
-#include "hasCycle.h"
+#include <stdio.h>
 
 struct listNode {
     int val;

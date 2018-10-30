@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2D552D96218832EE008E9873 /* hasCycle.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D552D95218832EE008E9873 /* hasCycle.c */; };
+		2D552D98218839FF008E9873 /* detectCycle.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D552D97218839FF008E9873 /* detectCycle.c */; };
 		2DD25E9C2187F3950097EF0C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DD25E9B2187F3950097EF0C /* main.c */; };
 		2DD25EA42187F3F10097EF0C /* designLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DD25EA32187F3F10097EF0C /* designLinkedList.c */; };
 /* End PBXBuildFile section */
@@ -25,8 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2D552D94218832EE008E9873 /* hasCycle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hasCycle.h; sourceTree = "<group>"; };
 		2D552D95218832EE008E9873 /* hasCycle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hasCycle.c; sourceTree = "<group>"; };
+		2D552D97218839FF008E9873 /* detectCycle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = detectCycle.c; sourceTree = "<group>"; };
 		2DD25E982187F3950097EF0C /* linkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = linkedList; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD25E9B2187F3950097EF0C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		2DD25EA22187F3F10097EF0C /* designLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = designLinkedList.h; sourceTree = "<group>"; };
@@ -66,8 +67,8 @@
 				2DD25E9B2187F3950097EF0C /* main.c */,
 				2DD25EA22187F3F10097EF0C /* designLinkedList.h */,
 				2DD25EA32187F3F10097EF0C /* designLinkedList.c */,
-				2D552D94218832EE008E9873 /* hasCycle.h */,
 				2D552D95218832EE008E9873 /* hasCycle.c */,
+				2D552D97218839FF008E9873 /* detectCycle.c */,
 			);
 			path = linkedList;
 			sourceTree = "<group>";
@@ -131,6 +132,7 @@
 				2DD25EA42187F3F10097EF0C /* designLinkedList.c in Sources */,
 				2D552D96218832EE008E9873 /* hasCycle.c in Sources */,
 				2DD25E9C2187F3950097EF0C /* main.c in Sources */,
+				2D552D98218839FF008E9873 /* detectCycle.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
