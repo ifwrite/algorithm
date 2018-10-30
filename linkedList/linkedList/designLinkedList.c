@@ -34,10 +34,12 @@ MyLinkedList* myLinkedListCreate(void) {
 }
 
 /** Get the value of the index-th node in the linked list. If the index is invalid, return -1. */
+/// obj为头节点
 int myLinkedListGet(MyLinkedList* obj, int index) {
     MyLinkedList* pst;
     int i=0;
     
+    //无头节点或无节点
     if (obj == 0 || obj->next == 0)
     {
         return -1;
