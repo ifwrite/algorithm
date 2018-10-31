@@ -12,6 +12,7 @@
 		2D5BF77F21894F2900BCE5A2 /* getIntersectionNode.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D5BF77E21894F2900BCE5A2 /* getIntersectionNode.c */; };
 		2D811BB32189AA7B002736C7 /* reverseList.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D811BB22189AA7B002736C7 /* reverseList.c */; };
 		2D811BB72189BC3F002736C7 /* removeElements.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D811BB62189BC3F002736C7 /* removeElements.c */; };
+		2D811BB92189C616002736C7 /* oddEvenList.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D811BB82189C616002736C7 /* oddEvenList.c */; };
 		2DD0520E21895CE000D610F1 /* removeNthFromEnd.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DD0520D21895CE000D610F1 /* removeNthFromEnd.c */; };
 		2DD25E9C2187F3950097EF0C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DD25E9B2187F3950097EF0C /* main.c */; };
 		2DD25EA42187F3F10097EF0C /* designLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DD25EA32187F3F10097EF0C /* designLinkedList.c */; };
@@ -35,6 +36,7 @@
 		2D5BF77E21894F2900BCE5A2 /* getIntersectionNode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = getIntersectionNode.c; sourceTree = "<group>"; };
 		2D811BB22189AA7B002736C7 /* reverseList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = reverseList.c; sourceTree = "<group>"; };
 		2D811BB62189BC3F002736C7 /* removeElements.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = removeElements.c; sourceTree = "<group>"; };
+		2D811BB82189C616002736C7 /* oddEvenList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = oddEvenList.c; sourceTree = "<group>"; };
 		2DD0520D21895CE000D610F1 /* removeNthFromEnd.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = removeNthFromEnd.c; sourceTree = "<group>"; };
 		2DD25E982187F3950097EF0C /* linkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = linkedList; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD25E9B2187F3950097EF0C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				2DD0520D21895CE000D610F1 /* removeNthFromEnd.c */,
 				2D811BB22189AA7B002736C7 /* reverseList.c */,
 				2D811BB62189BC3F002736C7 /* removeElements.c */,
+				2D811BB82189C616002736C7 /* oddEvenList.c */,
 			);
 			path = linkedList;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				2DD25EA42187F3F10097EF0C /* designLinkedList.c in Sources */,
 				2D5BF77F21894F2900BCE5A2 /* getIntersectionNode.c in Sources */,
 				2D552D96218832EE008E9873 /* hasCycle.c in Sources */,
+				2D811BB92189C616002736C7 /* oddEvenList.c in Sources */,
 				2D811BB72189BC3F002736C7 /* removeElements.c in Sources */,
 				2DD25E9C2187F3950097EF0C /* main.c in Sources */,
 				2D811BB32189AA7B002736C7 /* reverseList.c in Sources */,
