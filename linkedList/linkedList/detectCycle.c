@@ -14,7 +14,7 @@ struct listNode {
     struct listNode *next;
 };
 
-struct listNode *hasCycle(struct listNode *head) {
+struct listNode *detectCycle(struct listNode *head) {
     
     if (head == NULL) {
         return NULL;
