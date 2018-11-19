@@ -10,6 +10,7 @@
 		2D552D96218832EE008E9873 /* hasCycle.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D552D95218832EE008E9873 /* hasCycle.c */; };
 		2D552D98218839FF008E9873 /* detectCycle.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D552D97218839FF008E9873 /* detectCycle.c */; };
 		2D5BF77F21894F2900BCE5A2 /* getIntersectionNode.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D5BF77E21894F2900BCE5A2 /* getIntersectionNode.c */; };
+		2D81122D21A2947700687AD6 /* isPalindrome.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D81122C21A2947700687AD6 /* isPalindrome.c */; };
 		2D811BB32189AA7B002736C7 /* reverseList.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D811BB22189AA7B002736C7 /* reverseList.c */; };
 		2D811BB72189BC3F002736C7 /* removeElements.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D811BB62189BC3F002736C7 /* removeElements.c */; };
 		2D811BB92189C616002736C7 /* oddEvenList.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D811BB82189C616002736C7 /* oddEvenList.c */; };
@@ -34,6 +35,7 @@
 		2D552D95218832EE008E9873 /* hasCycle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hasCycle.c; sourceTree = "<group>"; };
 		2D552D97218839FF008E9873 /* detectCycle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = detectCycle.c; sourceTree = "<group>"; };
 		2D5BF77E21894F2900BCE5A2 /* getIntersectionNode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = getIntersectionNode.c; sourceTree = "<group>"; };
+		2D81122C21A2947700687AD6 /* isPalindrome.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = isPalindrome.c; sourceTree = "<group>"; };
 		2D811BB22189AA7B002736C7 /* reverseList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = reverseList.c; sourceTree = "<group>"; };
 		2D811BB62189BC3F002736C7 /* removeElements.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = removeElements.c; sourceTree = "<group>"; };
 		2D811BB82189C616002736C7 /* oddEvenList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = oddEvenList.c; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				2D811BB22189AA7B002736C7 /* reverseList.c */,
 				2D811BB62189BC3F002736C7 /* removeElements.c */,
 				2D811BB82189C616002736C7 /* oddEvenList.c */,
+				2D81122C21A2947700687AD6 /* isPalindrome.c */,
 			);
 			path = linkedList;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				2D552D96218832EE008E9873 /* hasCycle.c in Sources */,
 				2D811BB92189C616002736C7 /* oddEvenList.c in Sources */,
 				2D811BB72189BC3F002736C7 /* removeElements.c in Sources */,
+				2D81122D21A2947700687AD6 /* isPalindrome.c in Sources */,
 				2DD25E9C2187F3950097EF0C /* main.c in Sources */,
 				2D811BB32189AA7B002736C7 /* reverseList.c in Sources */,
 				2D552D98218839FF008E9873 /* detectCycle.c in Sources */,
